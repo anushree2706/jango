@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>student details </h2>
+
+<form action="." method="post">
+	{% csrf_token %}
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="firstname" required/><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="lastname" required/><br><br>
+
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
